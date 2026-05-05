@@ -29,6 +29,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# _config.yml
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename/ # Makes pages in _pages appear at the root level
 # Build settings
 theme: minima
 plugins:
