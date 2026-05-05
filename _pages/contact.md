@@ -1,4 +1,4 @@
 ---
-title: 'Contact'
+title: Contact Us
 ---
 this contact page
